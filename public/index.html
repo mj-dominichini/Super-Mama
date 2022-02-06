@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Super Mama</title>
+    <link href="/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <script src="scripts/burger.js"></script>
+  </head>
+
+
+  <body>
+
+    <header>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/dashboard">
+          <img src="/images/logo.png" style="max-height: 110px" class="py-2 px-2">
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item larger" href ="/time_management.html">
+            Time management tips & tricks
+          </a>
+    
+          <a class="navbar-item larger" href ="/home_organisation.html">
+            Home organisation advice
+          </a>
+        </div>
+    
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+                <a class="navbar-item larger" href ="/signin">Sign In</a>
+                <a class="navbar-item larger" href ="/signup">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav> 
+  
+      </header>
+
+
+    <!-- main pic-->
+    <div> 
+      <figure class="image">
+        <img src="/images/floor_clock.jpg" is-fullwidth>
+      </figure>
+    </div>
+
+    <!-- text content-->
+    
+    <section class="section px-6">
+    <div class="container mt-6 mb-6 ">
+      <div class="content is-medium">
+        <h1 class="has-text-centered"> Don't waste your time, organize!</h1>
+        <p>Everyday life is demanding and it can take a toll on us. Even though the times have changed (and are changing), women still bear more than their fair share of family and household obligations. How can it be helped? We could wait for a slow and steady change in gender roles and social norms to liberate our time,  nevertheless, on a relative scale (such as one's lifetime) those gradual processes usually take significant amount of time. What can be done to feel an immediate, swift and noticable change? </p>
+        <h2 class="has-text-centered">Technology, of course!</h2>
+        <p>Technology can not offer an "equal-chores" partner (well at least not the technology we are providing! 😉), but it can help you save time. More efficiently performed tasks leave more time for other activities.</p>
+        <p> Unfortunately technology is not always as user friendly as it promisses. Fearing a steep learning curve, a part of the population is discouraged from learning and using new technological tools.</p>
+        <p>Try <strong>Super Mama </strong>. We promise a facility of use and functionalities that correspond  to essential things that you already use daily. We asked numerous women what they want, and created Super Mama web tool to help you manage calendar, lists and your pantry needs. 
+        </p> 
+      </div>
+    </div>
+    </section>
+
+    <!-- a banner thingy-->
+    <section class="hero  is-small is-dark" >
+      <div class="hero-body">
+        <p class="title has-text-centered ">
+          Let <span class=" has-text-danger">Super Mama </span>give you the super power that you need!</p>
+    
+       </div>
+    </section>
+
+
+   
+     <!--card 1 -->
+
+     
+      <div class='container'>
+        <div class="columns mt-6 is-4 is centered mb-6">
+          <div class='column is-4'>
+            <div class="card">
+              <div class='card-header '>
+                <div class="card-header-title  is-centered mb-6 has-text-weight-bold">
+                  <h2 class="title is-3 has-text-danger-dark">Food shopping</h2>
+                </div>
+              </div>
+              <div class="card-image"> 
+                <img src="/images/Pantry_mini.jpg" alt="One of 3 functions of the app">
+              <div class="card-content">
+                <p class='is-success column has-text-weight-semibold has-text-centered'>
+                  Make sure you never miss any ingredient for your favourite meal!
+                </p>
+      
+              
+                </p>
+              </div>
+              </div>
+            
+          
+        </div>
+        </div>
+    <!--card 2  -->
+        
+          <div class='column is-4'>
+            <div class="card">
+              <div class='card-header'>
+                <div class="card-header-title is-centered mb-6 has-text-weight-bold">
+                  <h2 class="title is-3 has-text-danger-dark">Your appointments</h2>
+                </div>
+              </div>
+              <div class="card-image"> 
+                <img src="/images/Calendar_mini.jpg" alt="One of 3 functions of the app">
+              <div class="card-content">
+                <p class='is-success column has-text-weight-semibold has-text-centered'>
+                  Don't ever again forget important events in your life!
+                </p>
+      
+               
+      
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <!--Card 3 -->
+
+    <div class='column is-4'>
+      <div class="card">
+        <div class='card-header'>
+          <div class="card-header-title is-centered mb-6 has-text-weight-bold">
+          <h2 class="title is-3 has-text-danger-dark">To-Do</h2>
+          </div>
+        </div>
+    <div class="card-image"> 
+      <img src="/images/Lists_mini.jpg" alt="One of 3 functions of the app">
+
+
+      <div class="card-content">
+        <p class='is-success column has-text-weight-semibold has-text-centered'>
+          Either at home, or at work, there is always a need for a To-Do list!  
+        </p>
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+<section>
+  <div id ="modal" class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title"><i class="fas fa-envelope"></i>
+          </p>
+          <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+         <p>Your password was sucessfully reset</p>
+        </section>
+      </div>
+  </div>
+  
+  </section>
+
+    </div>
+
+    <!-- footer-->
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <strong><italic>Super Mama</italic></strong> by <a href="me.html">Marijana Dominichini</a>. This website content
+        is produced for Final Year Project (FYP) at <a href="https://fsktm.um.edu.my/">University of Malaya Computer Science faculty.</a><br>Copyright©2022
+      </div>
+    </footer>   
+
+  </body>
+</html>

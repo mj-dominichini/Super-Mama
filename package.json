@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "config": "^3.3.7",
+    "convert-units": "^2.3.4",
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "2.0",
+    "node-mandrill": "^1.0.1",
+    "nodemon": "^2.0.7",
+    "print-js": "^1.6.0",
+    "sqlite3": "^5.0.2"
+  },
+  "name": "maja",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "sendReminders.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "reminders": "nodemon bin/sendReminders.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
